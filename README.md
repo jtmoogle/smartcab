@@ -17,5 +17,10 @@ In a terminal or command window, navigate to the top-level project directory `sm
 
 ```python smartcab/agent.py```  
 ```python -m smartcab.agent```
+or
+```runsmart -c 1 > logs\logs-c1.txt```  #1 : if running "no learning"  (for question 2)
+```runsmart -c 2 > logs\logs-c2.txt```  #2 : if running "default learning"  (for question 5)
+```runsmart -c 3 > logs\logs-c3.txt```  #3 : if running "improved learning" (for question 6)
+```runsmart -c 9 > logs\logs-c9.txt```  #9 : running 1 -> 2 -> 3 in sequencial order
 
 This will run the `agent.py` file and execute your agent code.
